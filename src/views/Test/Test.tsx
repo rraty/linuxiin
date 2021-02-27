@@ -14,7 +14,8 @@ interface IQProps {
     name: string;
     options: Array<{ id: string; label: string; points: Array<string> }>;
   };
-  answerToQuestion: (questionPoints: Array<string>) => void;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  answerToQuestion: any;
 }
 
 const questions = [

@@ -1,0 +1,35 @@
+// // https://coolors.co/edae49-d1495b-00798c-30638e-003d5b
+// $primary: #30638e;
+// $primary-background: #003d5b;
+// $secondary: #00798c;
+// // https://coolors.co/50514f-f25f5c-ffe066-247ba0-70c1b3
+// $info: #f5bb00;
+// $success: #8ea604;
+// $error: #f25f5c;
+// $warning: #e76f51;
+$white: #fff;
+// $black: #000;
+
+$screen-xs: 480px;
+$screen-xs-min: $screen-xs;
+// 👆 Extra small screen / phone
+
+// 👇 Small screen / tablet
+$screen-sm: 576px;
+$screen-sm-min: $screen-sm;
+
+// Medium screen / desktop
+$screen-md: 768px;
+$screen-md-min: $screen-md;
+
+// Large screen / wide desktop
+$screen-lg: 992px;
+$screen-lg-min: $screen-lg;
+
+// Extra large screen / full hd
+$screen-xl: 1200px;
+$screen-xl-min: $screen-xl;
+
+// Extra extra large screen / large desktop
+$screen-xxl: 1600px;
+$screen-xxl-min: $screen-xxl;

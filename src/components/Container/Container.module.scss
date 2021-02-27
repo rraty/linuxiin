@@ -1,0 +1,10 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 10px 20px;
+
+  @include md {
+    margin: 2vh 10vw;
+  }
+}

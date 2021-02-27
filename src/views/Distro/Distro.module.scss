@@ -1,0 +1,61 @@
+.PresentationContainer {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  .PresentationText {
+    margin-top: 4vh;
+    text-align: initial;
+  }
+
+  .Logo {
+    max-width: 80%;
+  }
+
+  @include md {
+    display: initial;
+    text-align: initial;
+
+    .Logo {
+      float: left;
+      width: 40%;
+      margin: 15px 25px;
+      max-width: 400px;
+    }
+  }
+
+  @include xxl {
+    .PresentationContent {
+      display: flex;
+      align-items: center;
+
+      .Logo {
+        flex: 1;
+      }
+
+      .PresentationText {
+        flex: 2;
+      }
+    }
+  }
+}
+
+.TabsContainer {
+  margin-top: 2vh;
+
+  @include md {
+    .Image {
+      margin: 1rem;
+      width: 250px;
+
+      @include lg {
+        width: 300px;
+      }
+
+      @include xxl {
+        width: 400px;
+      }
+    }
+  }
+}

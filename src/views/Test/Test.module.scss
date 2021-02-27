@@ -1,0 +1,22 @@
+.Container {
+  align-items: center;
+
+  .TestContainer {
+    margin-top: 4vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.Question {
+  padding-top: 3vh;
+
+  .QuestionOptions {
+    display: flex;
+    place-content: center;
+    // justify-content: space-between;
+    margin-top: 15px;
+  }
+}

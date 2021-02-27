@@ -1,0 +1,29 @@
+.Card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  .Image {
+    padding: 2rem 2rem 0;
+  }
+
+  .Footer {
+    .Header {
+      text-align: center;
+      margin-bottom: 1rem;
+
+      :global {
+        .ant-card-meta-title {
+          font-weight: 600;
+          font-size: 1.4rem;
+        }
+      }
+    }
+
+    .Icon {
+      float: right;
+    }
+  }
+}

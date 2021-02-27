@@ -1,0 +1,30 @@
+## Please check .eslintignore and .gitignore when changing this file
+
+## file extensions
+*.*
+!*.css
+!*.js
+!*.json
+!*.jsx
+!*.scss
+!*.md
+!*.mdx
+!*.ts
+!*.tsx
+!*.yml
+
+
+## copied from .gitignore
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+
+## shared between eslint and prettier
+[a few more paths]

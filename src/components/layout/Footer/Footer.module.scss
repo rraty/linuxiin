@@ -1,0 +1,10 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  color: $white;
+
+  .Copyright {
+    margin-top: 5vh;
+    text-align: center;
+  }
+}

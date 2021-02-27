@@ -1,0 +1,17 @@
+.Layout {
+  min-height: 100vh;
+
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3 {
+      color: white;
+    }
+  }
+
+  .Content {
+    background-color: white;
+  }
+}

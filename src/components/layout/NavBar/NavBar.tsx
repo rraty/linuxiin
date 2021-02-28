@@ -3,7 +3,7 @@ import { Drawer, Button, Menu, Layout } from 'antd';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import linuxLogo from './linux-logo.jpg';
+import linuxLogo from './linux-logo.png';
 
 import styles from './NavBar.module.scss';
 
@@ -71,7 +71,7 @@ const NavBar: FunctionComponent = () => {
       </div>
       <div className={styles.Logo}>
         <Link to="/app">
-          <img src={linuxLogo} alt="Linuxiin sivun logo" style={{ height: '50px' }} />
+          <img src={linuxLogo} alt="Linuxiin sivun logo" style={{ height: '50px', marginRight: '.5rem' }} />
           Linuxiin
         </Link>
       </div>

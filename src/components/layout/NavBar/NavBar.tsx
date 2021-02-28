@@ -23,7 +23,7 @@ const AppMenu: FunctionComponent<IProps> = ({ className, mode, theme, location, 
     theme={theme}
     mode={mode}
     className={className}
-    defaultSelectedKeys={['/']}
+    triggerSubMenuAction="click"
     selectedKeys={[location.pathname]}
     onClick={() => setVisible(false)}
   >
@@ -64,7 +64,6 @@ const NavBar: FunctionComponent = () => {
           className={styles.Drawer}
           onClose={() => setVisible(false)}
           visible={visible}
-          style={{ width: '100%' }}
         >
           <AppMenu mode="inline" theme="light" location={location} setVisible={setVisible} />
         </Drawer>
